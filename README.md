@@ -76,13 +76,9 @@ This research workflow is not validated for clinical diagnosis or treatment deci
 
 The notebook installs its direct dependencies in the first setup cell and prints the versions present in the active Colab runtime. [requirements.txt](requirements.txt) records the direct software requirements, and [ENVIRONMENT.md](ENVIRONMENT.md) records the reference environment used for the first public release. Google Colab runtime images change over time, so retain the printed version report with each analysis.
 
-The repository validation workflow checks that the notebook is valid JSON and that `CITATION.cff` can be parsed. It does not execute the full scientific workflow because image loading and segmentation require test images, a GPU, and user interaction.
-
 ## Citation
 
-Use the **Cite this repository** link in the GitHub sidebar or the metadata in [CITATION.cff](CITATION.cff). A version-specific DOI will be added to the release notes and citation metadata after archival.
 
-If an associated protocol article is published, cite both the protocol and the exact archived software release used for the analysis.
 
 ## Contributing and support
 
