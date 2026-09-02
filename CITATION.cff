@@ -4,24 +4,44 @@ title: "Multiplex Immunofluorescence and Chromogenic IHC Analysis Suite"
 type: software
 version: 1.0.0
 date-released: 2026-09-02
+
 authors:
-  - given-names: "Arun (Geetha)"
+  - given-names: "Arun"
     family-names: "Viswanathan"
+    email: "arunv@rgcb.res.in"
+    affiliation: "Cancer Research Program, BRIC-Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB), Thiruvananthapuram, Kerala 695014, India; Manipal Academy of Higher Education (MAHE), Manipal, Karnataka 576104, India"
+
+  - given-names: "K. B."
+    family-names: "Harikumar"
+    affiliation: "Cancer Research Program, BRIC-Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB), Thiruvananthapuram, Kerala 695014, India"
+    orcid: "https://orcid.org/0000-0002-1763-4179"
+
 repository-code: "https://github.com/arunviswanathan91/ImageAnalysis"
 url: "https://github.com/arunviswanathan91/ImageAnalysis"
 license: MIT
-abstract: >-
-  An interactive Google Colab notebook for cell-based quantitative analysis
-  of multiplex immunofluorescence images and cell-based or area-based analysis
-  of chromogenic immunohistochemistry images. The workflow includes image
-  import, channel assignment, segmentation, optical-density or intensity
-  measurement, threshold review, visualization, and export.
-keywords:
-  - bioimage analysis
-  - digital pathology
-  - immunohistochemistry
-  - multiplex immunofluorescence
-  - H-score
-  - Cellpose
-  - Google Colab
 
+abstract: >-
+  An interactive Google Colab notebook for segmentation and quantitative
+  analysis of multiplex immunofluorescence and chromogenic
+  immunohistochemistry images. The fluorescence workflow supports image
+  import, z-stack projection, nuclear or expanded-cell segmentation,
+  per-cell intensity and morphology measurement, marker classification,
+  visualization, and tabular export. The chromogenic workflow supports
+  H-DAB or user-defined colour deconvolution, cell-based H-scoring,
+  area-based scoring, optional negative-control calibration, threshold
+  review, visualization, and export.
+
+keywords:
+  - multiplex immunofluorescence
+  - chromogenic immunohistochemistry
+  - image segmentation
+  - Cellpose
+  - Segment Anything for Microscopy
+  - Google Colab
+  - colour deconvolution
+  - H-score
+  - stained area fraction
+  - negative control
+  - HER2
+  - Human Protein Atlas
+  - reproducible image analysis
