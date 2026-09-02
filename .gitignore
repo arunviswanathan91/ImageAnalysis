@@ -1,0 +1,37 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Credentials and local configuration
+.env
+.env.*
+client_secret*.json
+credentials*.json
+service-account*.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local images, data, and generated results
+data/
+input/
+inputs/
+output/
+outputs/
+results/
+exports/
+figures/
+checkpoints/
+*.log
+*.zip
+

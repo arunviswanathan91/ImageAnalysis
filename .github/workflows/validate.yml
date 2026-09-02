@@ -1,0 +1,37 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install metadata validator
+        run: python -m pip install --upgrade cffconvert
+
+      - name: Validate citation metadata
+        run: cffconvert --validate -i CITATION.cff
+
+      - name: Validate notebook JSON
+        run: python -m json.tool Final_copy_of_MultiplexIF_Analysis_Suite.ipynb > /dev/null
+
+      - name: Check required release files
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f CITATION.cff
+          test -f requirements.txt

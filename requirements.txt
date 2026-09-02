@@ -1,0 +1,32 @@
+# Direct dependencies used by the Google Colab notebook.
+# The setup cell remains the recommended installation route in Colab.
+
+numpy>=2.0
+scipy>=1.13.1
+scikit-image>=0.24.0
+pandas
+matplotlib
+seaborn
+ipywidgets
+Pillow
+psutil
+tqdm
+openpyxl
+tifffile
+
+# Segmentation and optional foundation-model support
+cellpose
+micro-sam
+dinov3 @ git+https://github.com/facebookresearch/dinov3@6876159a11b4df116f30f667f8c9888617df0751
+
+# Image readers
+bioio
+bioio-bioformats>=2.0
+bioio-czi
+bioio-lif
+bioio-nd2
+bioio-tifffile
+aicspylibczi
+readlif
+nd2
+

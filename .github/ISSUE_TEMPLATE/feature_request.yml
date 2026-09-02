@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an improvement to the notebook or documentation
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: Analysis module
+      options:
+        - Multiplex immunofluorescence
+        - Chromogenic IHC
+        - Repository or documentation
+        - General
+    validations:
+      required: true
+
+  - type: textarea
+    id: need
+    attributes:
+      label: Research need
+      description: Explain the analysis problem or workflow limitation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: Describe how the feature should work and what it should produce.
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: Suggested validation
+      description: Explain how the proposed change could be checked against expected results.
+

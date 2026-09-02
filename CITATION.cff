@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived software release and the associated protocol article when available."
+title: "Multiplex Immunofluorescence and Chromogenic IHC Analysis Suite"
+type: software
+version: 1.0.0
+date-released: 2026-09-02
+authors:
+  - given-names: "Arun (Geetha)"
+    family-names: "Viswanathan"
+repository-code: "https://github.com/arunviswanathan91/ImageAnalysis"
+url: "https://github.com/arunviswanathan91/ImageAnalysis"
+license: MIT
+abstract: >-
+  An interactive Google Colab notebook for cell-based quantitative analysis
+  of multiplex immunofluorescence images and cell-based or area-based analysis
+  of chromogenic immunohistochemistry images. The workflow includes image
+  import, channel assignment, segmentation, optical-density or intensity
+  measurement, threshold review, visualization, and export.
+keywords:
+  - bioimage analysis
+  - digital pathology
+  - immunohistochemistry
+  - multiplex immunofluorescence
+  - H-score
+  - Cellpose
+  - Google Colab
+
