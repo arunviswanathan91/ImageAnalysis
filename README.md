@@ -73,6 +73,23 @@ For chromogenic IHC, optical density and H-score are semiquantitative measuremen
 
 This research workflow is not validated for clinical diagnosis or treatment decisions.
 
+## External validation
+
+The analysis flow has been evaluated using independent, publicly available image datasets for both the fluorescence and chromogenic branches. The external datasets used for validation are listed below so that the analyses can be independently reproduced or compared against the source material.
+
+| Branch | External validation dataset | Validation use | Links |
+| --- | --- | --- | --- |
+| Multiplex immunofluorescence | **TONSIL-1 t-CyCIF** | Highly multiplexed fluorescence tonsil data used to evaluate the fluorescence analysis workflow, including segmentation and downstream single-cell measurements. | [Dataset](https://www.synapse.org/Synapse:syn17865732/) · [Paper](https://doi.org/10.1038/s41597-019-0332-y) |
+| Chromogenic IHC | **HER2-IHC-40x** | High-resolution HER2 IHC breast-cancer images used to evaluate the chromogenic IHC workflow and staining/scoring measurements. | [Dataset](https://zenodo.org/records/15179608) · [Paper](https://doi.org/10.1016/j.dib.2025.111922) |
+| Chromogenic IHC | **Human Protein Atlas cancer pathology images** | Cancer IHC images spanning different antibodies, with expert staining annotations, used as an independent reference for testing the chromogenic workflow across markers and staining intensities. | [Human Protein Atlas](https://www.proteinatlas.org) · [Pathology Atlas paper](https://doi.org/10.1126/science.aan2507) |
+
+The repository contains dedicated validation notebooks for the two analysis branches:
+
+- [Fluorescence branch validation](validation/FL_branch_validation.ipynb)
+- [Chromogenic IHC branch validation](validation/IHC_branch_validation.ipynb)
+
+These validation exercises support research-use benchmarking and reproducibility; they do not constitute clinical validation of the workflow.
+
 ## Reproducibility
 
 The notebook installs its direct dependencies in the first setup cell and prints the versions present in the active Colab runtime. [requirements.txt](requirements.txt) records the direct software requirements, and [ENVIRONMENT.md](ENVIRONMENT.md) records the reference environment used for the first public release. Google Colab runtime images change over time, so retain the printed version report with each analysis.
