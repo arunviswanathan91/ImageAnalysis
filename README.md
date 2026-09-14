@@ -9,7 +9,10 @@
 An interactive Google Colab workflow for quantitative analysis of multiplex immunofluorescence images and chromogenic immunohistochemistry images. The notebook guides the user through image import, channel assignment, segmentation, measurement, threshold review, visualization, and export.
 
 The main notebook is [Final_copy_of_MultiplexIF_Analysis_Suite.ipynb](Final_copy_of_MultiplexIF_Analysis_Suite.ipynb).
-
+<figure>
+  <img src="[your-image-url.jpg](https://github.com/arunviswanathan91/ImageAnalysis/blob/main/assets/graphical%20abstract.png)" alt="Abstract showing the processing pipeline of the colab notebook">
+  <figcaption><i>Figure 1: This is your image caption.</i></figcaption>
+</figure>
 ## Start here
 
 1. Click **Open in Colab** above.
