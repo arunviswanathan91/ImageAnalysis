@@ -11,7 +11,7 @@ An interactive Google Colab workflow for quantitative analysis of multiplex immu
 The main notebook is [Final_copy_of_MultiplexIF_Analysis_Suite.ipynb](Final_copy_of_MultiplexIF_Analysis_Suite.ipynb).
 
 ![Abstract showing the processing pipeline of the colab notebook](https://raw.githubusercontent.com/arunviswanathan91/ImageAnalysis/main/assets/graphical%20abstract.svg)
-*Abstract showing the processing pipeline of the colab notebook.*
+*A summary figure showing the processing pipeline of the colab notebook.*
 
 ## Start here
 
