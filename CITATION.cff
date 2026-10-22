@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the archived software release and the associated protocol article when available."
-title: "Multiplex Immunofluorescence and Chromogenic IHC Analysis Suite"
+title: "	A validated Interactive Google Colab Workflow for Segmentation and Quantitative Analysis of Multiplex Immunofluorescence and Chromogenic Immunohistochemistry"
 type: software
 version: 1.0.0
 date-released: 2026-09-02
