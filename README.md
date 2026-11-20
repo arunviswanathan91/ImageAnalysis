@@ -5,7 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Repository validation](https://github.com/arunviswanathan91/ImageAnalysis/actions/workflows/validate.yml/badge.svg)](https://github.com/arunviswanathan91/ImageAnalysis/actions/workflows/validate.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22260636.svg)](https://doi.org/10.5281/zenodo.22260636)
+## Publication
 
+This repository contains the code and workflows accompanying our paper:
+
+[Read the paper in Bio-protocol](https://doi.org/10.21769/BioProtoc.5890)
 An interactive Google Colab workflow for quantitative analysis of multiplex immunofluorescence images and chromogenic immunohistochemistry images. The notebook guides the user through image import, channel assignment, segmentation, measurement, threshold review, visualization, and export.
 
 The main notebook is [Final_copy_of_MultiplexIF_Analysis_Suite.ipynb](Final_copy_of_MultiplexIF_Analysis_Suite.ipynb).
